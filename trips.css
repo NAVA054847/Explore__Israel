@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    
+}
+
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+  color: #4e4444;
+    border-radius: 10px;
+    padding-top: 3rem;
+    font-family: system-ui;
+    
+}
+ nav a{
+    color: white;
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #BCAAA4;
+    text-decoration: none;
+    font-family: system-ui;
+    padding: 1.8rem;
+   
+}
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:#BCAAA4;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0rem;
+    height: 6rem;
+    margin: 1rem;
+    z-index:3;
+    
+}
+nav a:hover{
+    background-color: #7e7070;
+}
+
+.card div {
+    display: inline-block;
+background-color: white;
+width: 25rem;
+height: 30rem;
+border: #7e7070 0.25rem solid;
+border-radius: 10px;
+text-align: right;
+margin-top: 1rem;
+background-color: #D7CCC8;
+}
+.card div img:hover{
+    opacity: 70%;
+}
+.card div img{
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.card div p{
+    color: #4e4444;
+    font-family: system-ui;
+}
+.card div a{
+    color: #332d2d;
+    font-family: system-ui;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+footer a{
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    background-color: #116d18;
+    color: white;
+    text-decoration: none;
+    /* border: black 0.25rem solid; */
+    font-family: system-ui;
+}
+footer{
+    background-color:#116d18;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    height: 5rem;
+   padding:1.4rem;
+   margin-top: 1rem;
+}
+
+header a{
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f8f4f4;
+    text-decoration: none;
+    font-family: system-ui;
+    padding: 2rem;
+}
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color:  #116d18;
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+}
+
+
+.watsap{
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    height: 7rem;
+    width: 7rem;
+    z-index: 3;
+
+}
+.watsap:hover{
+    height: 10rem;
+    width: 10rem;
+}
+.a{
+    font-size: 2rem;
+    /* text-decoration: none; */
+    color: black;
+}
+header a:hover{
+    background-color:    #80c099;
+    color: rgb(242, 234, 234);
+}
+@media screen and (max-width:966px) {
+    nav a{
+        font-size: 1.7rem;
+        padding: 1rem;
+    }
+}
+@media screen and (max-width:698px) {
+    nav a{
+        font-size: 1rem;
+        padding: 1rem;
+        height: 100%;
+    }
+    header a{
+        font-size: 1rem;
+        padding: 1rem;
+        height: 100%;
+    }
+}
+

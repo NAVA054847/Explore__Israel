@@ -1,0 +1,270 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body {
+    /* background-color: gray; */
+    background-image: url(reka/11.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 8rem;
+    color: #332d2d;
+
+}
+
+.piska {
+    font-size: 2rem;
+    text-align: center;
+    width: 40rem;
+    border-left: solid black 0.25rem;
+    border-right: solid 0.25rem black;
+    margin-bottom: 10rem;
+    color: #332d2d;
+}
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    background-color: #7e7070;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 15rem;
+    gap: 7rem;
+
+
+}
+
+footer a {
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 2rem;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: #116d18;
+    justify-content: space-around;
+    align-items: center;
+    height: 6rem;
+
+}
+
+nav a:hover {
+    background-color: #80c099;
+    color: rgb(242, 234, 234);
+}
+
+div img {
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 1rem;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0rem;
+    margin: 0rem;
+
+
+
+}
+.icon img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.iconim {
+    width: 20rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: space-around
+}
+
+/* .times h3 {
+    color: white;
+    font-size: 1rem;
+    padding: 0rem;
+    margin: 0rem;
+
+}
+
+.times {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 10rem;
+
+
+} */
+
+.reshet {
+    display: flex;
+    flex-wrap: wrap;
+    width: 12rem;
+}
+
+.reshet img {
+    height: 8rem;
+    width: 8rem;
+
+}
+
+.reshet p {
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+}
+
+.kishurim {
+    width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.kishurim a {
+    font-size: 1 rem;
+    color: white;
+    direction: rtl;
+}
+
+@media screen and (max-width:966px) {
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    div p {
+        font-size: 1.7rem;
+    }
+
+    nav a {
+        font-size: 1.3rem;
+        height: 100%;
+        padding: 1rem;
+    }
+
+    footer div a {
+        font-size: 1rem;
+    }
+
+    .kishurim a {
+        font-size: 1rem;
+    }
+
+    footer {
+        height: 10rem;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .reshet img {
+        height: 4rem;
+        width: 4rem;
+    }
+
+    .reshet p {
+        font-size: 1rem;
+    }
+
+    .times {
+        width: 25vw;
+    }
+
+    .kishurim {
+        width: 25vw;
+    }
+
+    .reshet {
+        width: 25vw;
+    }
+
+    .iconim {
+        width: 25vw;
+    }
+
+    .times p {
+        font-size: 1rem;
+    }
+
+
+}
+
+
+@media screen and (max-width:698px) {
+
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    div p {
+        font-size: 1.2rem;
+    }
+
+    nav a {
+        font-size: 1rem;
+        padding: 1rem;
+        height: 100%;
+    }
+
+    footer {
+        height: 35rem;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .kishurim{
+        gap: 1rem;
+    }
+    .iconim{
+        gap: 1rem;
+    }
+    .reshet img{
+        height: 9rem;
+        width: 9rem;
+    }
+    .iconim .icon a{
+        width: 12rem;
+    }
+    .reshet p{
+        font-size: 1rem;
+      
+    }
+    .piska{
+        font-size: 1.3rem;
+    }
+}
